@@ -68,3 +68,6 @@ CREATE
 (tudu)-[:COACHES_FOR]->(swain);
 
 
+
+MATCH (trans:TRANS) -[x:PLAYS_FOR]-> (team:TEAM)  WHERE team.name="rkl" AND x.salary > 50000 RETURN trans, team
+
