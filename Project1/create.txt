@@ -65,7 +65,6 @@ CREATE
 (tudu)-[:COACHES_FOR]->(satya),
 (tudu)-[:COACHES_FOR]->(mahanta),
 (tudu)-[:COACHES_FOR]->(murmu),
-(tudu)-[:COACHES_FOR]->(swain),
-
+(tudu)-[:COACHES_FOR]->(swain);
 
 
